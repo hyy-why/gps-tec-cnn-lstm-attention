@@ -1,0 +1,11 @@
+model: SE
+window: 5
+batch_size: 80
+epochs: 100
+learning_rate: 0.01
+patience: 10
+
+paths:
+  data: data/sample_tec.csv
+  checkpoints: checkpoints
+  results: results
